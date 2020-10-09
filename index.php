@@ -7,6 +7,7 @@ include('header.php');
 <h2> Yo c'est kono</h2>
 <h1> Salam c'est Mathis<h1>
 <h1> My name is not Gabriel</h1>
+</body>
 <?php
 include('footer.php');
 ?>
