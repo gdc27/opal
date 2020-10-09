@@ -2,6 +2,7 @@
   <head>
     <title> OPAL </title>
   </head>
+<<<<<<< HEAD
 
 
   <body>
@@ -16,3 +17,5 @@
 </html>
 =======
 >>>>>>> 5b4e116d2ccb22ff2f4d4bb583681c8d14ffdddb
+=======
+>>>>>>> 7309c6f1235078d51ba35d213b5190fad6ed3c22
