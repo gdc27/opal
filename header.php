@@ -1,7 +1,7 @@
 <html>
   <head>
     <title> OPAL </title>
-    <link href="style.css" type="text/css">
+    <link rel="stylesheet" href="style.css">
   </head>
 
 
