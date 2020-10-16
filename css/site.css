@@ -50,7 +50,7 @@ legend {
   }
 
 #fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend  {
-  border: 2px solid red;
+
 }
 
 #content > aside {
@@ -58,11 +58,11 @@ legend {
 }
 
 #fieldsetsidebar, #fieldsetsidebar legend {
-  border: 2px solid green;
+
 }
 
 footer fieldset, footer fieldset legend {
-  border: 2px solid purple;
+
 }
 
 footer {
