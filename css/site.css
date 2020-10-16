@@ -4,15 +4,16 @@ Auteur : Mathieu Mangeot
 
 body {
   font-family: "Lucida Grande",Tahoma,Helvetica,sans-serif;
+  color: black;
 }
+
+/*header */
 
 header {
   display: block;
   text-align: center;
-  color: navy;
+
 }
-
-
 
 header nav {
   display:block;
@@ -35,10 +36,10 @@ header nav {
 fieldset {
   margin: 10px;
 }
-fieldset, legend {
-    background-color: #eee;
-    border-radius: 5px;
+/*fieldset, legend {
+    border-radius: 12px;
     }
+
 legend {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -46,25 +47,23 @@ legend {
     font-style: italic;
     font-size: 1em;
     text-shadow: #fff 1px 1px 1px;
-  }
+  }*/
 
-#fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend  {
 
-}
+a
+{text-decoration: none;
+color : black;}
+
+
 
 #content > aside {
   float: right;
 }
 
-#fieldsetsidebar, #fieldsetsidebar legend {
 
-}
-
-footer fieldset, footer fieldset legend {
-
-}
 
 footer {
   display: block;
   text-align: center;
+
 }
