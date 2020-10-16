@@ -12,9 +12,7 @@ header {
   color: navy;
 }
 
-header fieldset, header fieldset legend {
-  border: 2px solid blue;
-}
+
 
 header nav {
   display:block;
