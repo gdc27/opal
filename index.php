@@ -8,10 +8,10 @@
 
 
 <section id='content'>
-  <aside class="droite" id="right_box">
+  <div class="droite" id="right_box">
       <!-- partie de droite-->
   <?php get_sidebar(); ?>
-  </aside>
+  </div>
 
 
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>

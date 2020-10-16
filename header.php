@@ -11,12 +11,9 @@
     </head>
     <body>
       <header>
-        <fieldset>
-          <legend>header.php: &lt;head&gt; avec + &lt;header&gt;</legend>
         <h1><?php bloginfo( 'name' ); ?></h1>
         <h2> <?php bloginfo( 'description' ); ?></h2>
         <nav id="menuprincipal">
           <?php wp_page_menu('show_home=1'); ?>
         </nav>
-      </fieldset>
       </header>

@@ -6,7 +6,7 @@ body {
   font-family: "Lucida Grande",Tahoma,Helvetica,sans-serif;
   color: black;
   background : pink;
-padding : 50px;
+  margin : 5%;
 }
 
 /*header */
@@ -16,11 +16,23 @@ header {
   text-align: center;
 
 }
-
-.gauche
-{
+#content{
+  display:flex !important;
+  margin-top: 5%;
+}
+.gauche{
+  order:1;
 width:70%;
-margin-right: 20 px;}
+margin-right: 20 px;
+}
+.droite{
+  order:2;
+  width:30%;
+  border-left-style: solid;
+}
+.entry{
+  width:95%;
+}
 
 header nav {
   display:block;
@@ -36,45 +48,21 @@ header nav {
 	background: #2DFFDB;
     border-radius: 20px; }
 
-#legendemenuprincipal  {
-  float:left;
-}
-
-.droite{
-  border-left-style: solid;
-}
-
-fieldset {
-  margin: 10px;
-}
-/*fieldset, legend {
-    border-radius: 12px;
-    }
-
-legend {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-    font-weight: normal;
-    font-style: italic;
-    font-size: 1em;
-    text-shadow: #fff 1px 1px 1px;
-  }*/
-
 
 a
-{text-decoration: none;
-color : black;}
-
-
-
-#content > aside {
-  float: right;
+{
+text-decoration: none;
+color : black;
 }
+
+
+
 
 
 
 footer {
   display: block;
   text-align: center;
+  margin-top:5%;
 
 }
