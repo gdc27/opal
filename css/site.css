@@ -23,9 +23,10 @@ header nav {
 #menuprincipal li {display: inline; }
 #menuprincipal ul li a {text-decoration:none;  margin: 4px;
 	padding: 5px 20px 5px 20px; color: blue;
-	}
+	color : black;}
 #menuprincipal ul li a:hover {color: purple;
-	background: #2DFFDB; }
+	background: #2DFFDB;
+    border-radius: 12px; }
 
 #legendemenuprincipal  {
   float:left;
