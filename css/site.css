@@ -40,6 +40,14 @@ margin:auto;
 .full{
  width:100%;
 }
+.full_sidebar{
+  width:100%;
+}
+
+.full_sidebar ul{
+  width:100%;
+  display:flex;
+}
 header nav {
   display:block;
 }
