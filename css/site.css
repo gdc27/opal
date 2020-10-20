@@ -43,9 +43,15 @@ margin:auto;
 .full_sidebar{
   width:100%;
 }
-
-.full_sidebar ul{
+.center_shadow{
+  width:70%;
+  margin:auto;
+  box-shadow: 10px;
+}
+#template1_box{
   width:100%;
+}
+.full_sidebar ul{
   display:flex;
 }
 header nav {
