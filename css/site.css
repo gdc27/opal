@@ -51,6 +51,11 @@ margin:auto;
 #template1_box{
   width:100%;
 }
+.logo_accueil{
+  display:block;
+  width:70%;
+  margin:auto;
+}
 .full_sidebar ul{
   display:flex;
 }
@@ -75,11 +80,6 @@ a
 text-decoration: none;
 color : #F9F4EA;
 }
-
-
-
-
-.logo
 
 footer {
   display: block;

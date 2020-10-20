@@ -7,11 +7,7 @@
 
 
 
-<section id='content'>
-  <div class="full_sidebar" id="full-sidebar_box">
-  <?php get_sidebar(); ?>
-  </div>
-</section>
+<img class="logo_accueil" src="<?php echo get_template_directory_uri();?>/img/logoaccueil.png">
 
 
 <?php get_footer(); ?>
