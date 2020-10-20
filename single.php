@@ -6,18 +6,11 @@
 <?php get_header(); ?>
 
 
-
 <section id='content'>
-  <aside class="droite" id="right_box">
-      <!-- partie de droite-->
-  <?php get_sidebar(); ?>
-  </aside>
-
-
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     
-  <!-- gauche -->
-  <div class="gauche" id="left_box">
+  <!-- centre -->
+  <div class="centre" id="center_box">
    	  <!-- Display the Title as a link to the Post's permalink. -->
 
    	  <h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
