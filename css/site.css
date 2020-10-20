@@ -4,8 +4,8 @@ Auteur : Mathieu Mangeot
 
 body {
   font-family: "Lucida Grande",Tahoma,Helvetica,sans-serif;
-  color: black;
-  background : pink;
+  color: #F9F4EA;
+  background : #2D2C2C;
   margin : 5%;
 }
 
@@ -46,7 +46,7 @@ margin:auto;
 .center_shadow{
   width:70%;
   margin:auto;
-  box-shadow: 10px 10px 10px 10px purple;
+  box-shadow: 5px 5px 5px 5px purple;
 }
 #template1_box{
   width:100%;
@@ -63,16 +63,17 @@ header nav {
 #menuprincipal li {display: inline; }
 #menuprincipal ul li a {text-decoration:none;  margin: 4px;
 	padding: 5px 20px 5px 20px; color: blue;
-	color : black;}
+	color : #F9F4EA;}
 #menuprincipal ul li a:hover {color: purple;
-	background: #2DFFDB;
+	background: #FA9500;
+  color : #F9F4EA;
     border-radius: 20px; }
 
 
 a
 {
 text-decoration: none;
-color : black;
+color : #F9F4EA;
 }
 
 
