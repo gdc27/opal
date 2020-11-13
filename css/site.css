@@ -76,11 +76,15 @@ header nav {
   color : #FFFFFF;
     border-radius: 20px; }
 
-
 a
 {
 text-decoration: none;
 color : #6B11C1;
+}
+
+a:hover
+{
+color :  #3263F1;
 }
 
 footer {
@@ -89,3 +93,29 @@ footer {
   margin:5% 0;
 
 }
+
+.submit{
+  background-color: #6B11C1;
+  text-align:center;
+  color:#ffffff;
+  border:none;
+  border-radius: 40px;
+  cursor:pointer;
+  padding: 7px 10px;
+  transition: all ease-in-out 0.5s;
+}
+
+.submit:hover{
+  background-color: #3263F1;
+  color:#ffffff;
+  transform: scale(1.1);
+}
+/* Template2 */
+.full-box{
+min-height: 100vh;
+}
+
+.article_all_item li {
+  margin: 20px 0;
+}
+
