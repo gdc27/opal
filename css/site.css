@@ -1,11 +1,11 @@
 /* feuille de style pour le site
-Auteur : Mathieu Mangeot
+Auteur : Gabriel, Camille, Konogan, Mathis.
 */
 
 body {
   font-family: "Lucida Grande",Tahoma,Helvetica,sans-serif;
-  color: #F9F4EA;
-  background : #2D2C2C;
+  color: #222222;
+  background : #FFFFFF;
   margin : 0 5%;
 }
 
@@ -70,17 +70,17 @@ header nav {
 #menuprincipal li {display: inline; }
 #menuprincipal ul li a {text-decoration:none;  margin: 4px;
 	padding: 5px 20px 5px 20px; color: blue;
-	color : #F9F4EA;}
+	color : #6B11C1;}
 #menuprincipal ul li a:hover {color: purple;
-	background: #FA9500;
-  color : #F9F4EA;
+	background: #3262F1;
+  color : #6B11C1;
     border-radius: 20px; }
 
 
 a
 {
 text-decoration: none;
-color : #F9F4EA;
+color : #222222;
 }
 
 footer {
