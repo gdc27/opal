@@ -4,7 +4,7 @@ Auteur : Gabriel, Camille, Konogan, Mathis.
 
 body {
   font-family: "Lucida Grande",Tahoma,Helvetica,sans-serif;
-  color: #000000;
+  color: #FFFFFF;
   background : #222222;
   margin : 0 5%;
 }
@@ -70,10 +70,10 @@ header nav {
 #menuprincipal li {display: inline; }
 #menuprincipal ul li a {text-decoration:none;  margin: 4px;
 	padding: 5px 20px 5px 20px; color: blue;
-	color : #000000;}
+	color : #FFFFFF;}
 #menuprincipal ul li a:hover {color: purple;
 	background: #6B11C1;
-  color : #000000;
+  color : #FFFFFF;
     border-radius: 20px; }
 
 
