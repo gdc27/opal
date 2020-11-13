@@ -94,7 +94,7 @@ footer {
 
 }
 
-.submit{
+.submit, #searchsubmit{
   background-color: #6B11C1;
   text-align:center;
   color:#ffffff;
@@ -105,7 +105,7 @@ footer {
   transition: all ease-in-out 0.5s;
 }
 
-.submit:hover{
+.submit:hover,#searchsubmit:hover{
   background-color: #3263F1;
   color:#ffffff;
   transform: scale(1.1);
@@ -119,3 +119,15 @@ min-height: 100vh;
   margin: 20px 0;
 }
 
+
+@media (max-width: 900px) {
+  header {
+   flex-direction:column;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+   font-size:0.6em;
+  }
+}
