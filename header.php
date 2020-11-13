@@ -11,6 +11,7 @@
     </head>
     <body>
       <header>
+        <img src='<?php ?>'/>
         <h1><?php bloginfo( 'name' ); ?></h1>
         <nav id="menuprincipal">
           <?php wp_page_menu('show_home=1'); ?>
