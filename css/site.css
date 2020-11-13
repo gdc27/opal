@@ -6,13 +6,15 @@ body {
   font-family: "Lucida Grande",Tahoma,Helvetica,sans-serif;
   color: #F9F4EA;
   background : #2D2C2C;
-  margin : 5%;
+  margin : 0 5%;
 }
 
 /*header */
 
 header {
-  display: block;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
   text-align: center;
 
 }
