@@ -69,9 +69,9 @@ header nav {
 	list-style-type: none; list-style-image: none; }
 #menuprincipal li {display: inline; }
 #menuprincipal ul li a {text-decoration:none;  margin: 4px;
-	padding: 5px 20px 5px 20px; color: blue;
+	padding: 5px 20px 5px 20px; color: FFFFFF;
 	color : #FFFFFF;}
-#menuprincipal ul li a:hover {color: purple;
+#menuprincipal ul li a:hover {color: 6B11C1;
 	background: #6B11C1;
   color : #FFFFFF;
     border-radius: 20px; }
