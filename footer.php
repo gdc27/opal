@@ -5,7 +5,7 @@
     			<?php do_action( 'didactique_credits' ); ?>
     			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'Une plate-forme sémantique de publication personnelle', 'Opal' ); ?>" rel="generator"><?php printf( __( 'Propulsé par %s', 'Opal' ), 'WordPress' ); ?></a>
     			<span class="sep"> | </span>
-    			<?php printf( __( 'Thème : %1$s par %2$s.', 'didactique' ), 'Opal', 'Gabriel DA COSTA' ); ?>
+    			<?php printf( __( 'Thème : %1$s par %2$s.', 'didactique' ), 'Opal', 'Gabriel DA COSTA, Camille Genet, Mathis Exertier, Konogan Berger' ); ?>
     		</div><!-- .site-info -->
 <?php wp_footer(); ?>
 </footer>
