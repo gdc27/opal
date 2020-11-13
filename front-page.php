@@ -7,7 +7,7 @@
 
 
 
-<img class="logo_accueil" src="<?php echo get_template_directory_uri();?>/img/logoaccueil.png">
+<img class="logo_accueil" src="<?php echo get_template_directory_uri();?>/img/petit_serpent.png">
 
 
 <?php get_footer(); ?>
